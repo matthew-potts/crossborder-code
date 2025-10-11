@@ -1,9 +1,16 @@
 format: jb-book
 root: home
-chapters:
-- file: posts/BankLendingVsCapitalMarkets/BankLendingVsCapitalMarkets.ipynb
-  title: The Changing Nature of Cross-Border Credit
-- file: posts/U.S.Assets.DuringGFC/U.S.Assets.During.Crisis.ipynb
-  title: The U.S. Dollar during the GFC 2007-08 - Global Safe Asset?
-- file: posts/LLMsAndGFCy/LLMsAndGFCy.ipynb
-  title: Using LLMs To Analyse the Effect of U.S. Macroeconomic News
+parts:
+- caption: About
+  chapters:
+  - file: about/me.md
+    title: About
+
+- caption: Research
+  chapters:
+  - file: research/research.md
+    title: Research
+#   - file: posts/U.S.Assets.DuringGFC/U.S.Assets.During.Crisis.ipynb
+#     title: The U.S. Dollar during the GFC 2007-08 - Global Safe Asset?
+#   - file: posts/LLMsAndGFCy/LLMsAndGFCy.ipynb
+#     title: Using LLMs To Analyse the Effect of U.S. Macroeconomic News

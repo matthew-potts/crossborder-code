@@ -37,7 +37,7 @@ jobs:
 
       # Build the book
       - name: Build the book
-        run: jupyter-book build .
+        run: sphinx-build . ./_build/html -b html
 
       # Upload the book's HTML as an artifact
       - name: Upload artifact
