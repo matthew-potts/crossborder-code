@@ -29,11 +29,17 @@
   },
   {
    "cell_type": "markdown",
+   "id": "0b59515c",
+   "metadata": {},
+   "source": [
+    "#### Data and Methodology"
+   ]
+  },
+  {
+   "cell_type": "markdown",
    "id": "3a448ccd",
    "metadata": {},
    "source": [
-    "#### Using LLMs to Assess Macroeconomic News Coverage\n",
-    "\n",
     "Boehm and Kroner's approach uses (surprises in) U.S. statistical releases (e.g. nonfarm payrolls) as the explanatory variable in their estimates of the effect of news on the GFCy; but the focus on 'news' gives the opportunity to experiment by integrating textual data into this domain of macroeconomic analysis, an approach already being [explored in political science](https://kenbenoit.net/pdfs/Benoit_etal_2025_AJPS.pdf).\n",
     "\n",
     "In particular, I'm interested applying LLM assessments of macroeconomic news coverage to analyse the GFCy. If we 'prompt' an LLM to put itself in the position of an international investor reading the latest macroeconomic news releases, then, in seeing the assessment that this LLM makes, we might be able to obtain an estimate a good proxy for investor risk-aversion. Importantly, this would happen in a replicable and scalable way.\n",
@@ -45,14 +51,6 @@
     "\n",
     "Where $\\Delta q_{i,t}$ represents the change in asset prices in country $i$ at period $t$, and $\\gamma_{i,t}$ LLM rating of story $i$ at time $t$. $\\beta$ can therefore be interpreted as the sensitivity of asset price changes to the LLM rating, and a positive and statstically significant $\\beta$ can be interpreted as evidence for investor risk-aversion affecting global asset prices (and hence the GFCy).\n"
    ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "7cf0df65",
-   "metadata": {},
-   "outputs": [],
-   "source": []
   },
   {
    "cell_type": "markdown",
@@ -238,11 +236,12 @@
     "\n",
     "... in the figure below. The coefficient on LLM assessment of news story is statistically significant at the 10% level in each sample, suggesting that ... .\n",
     "\n",
-    "|   Sample      | Coefficient | Standard Error | p-value |\n",
+    "To\n",
+    "\n",
+    "|   Model      | Coefficient | Standard Error | p-value |\n",
     "|---------------|-------------|----------------|---------|\n",
-    "|      Full     |      382.3       |         195.3       |    0.051     |\n",
-    "|    Developed  |      XXX       |       XXX         |    XXX     |\n",
-    "|   Developing  |      XXX       |       XXX         |    XXX     |"
+    "|      GPT-4o     |      382.3       |         195.3       |    0.051     |\n",
+    "|    GPT-5-mini  |      XXX       |       XXX         |    XXX     |\n"
    ]
   },
   {

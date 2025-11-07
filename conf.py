@@ -31,7 +31,7 @@ html_theme_options = {
         },
         {
             "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/matthew-potts-524aa224/",
+            "url": "https://www.linkedin.com/in/matthew-potts-9561a8230/",
             "icon": "fa-brands fa-linkedin"
         }
     ],
