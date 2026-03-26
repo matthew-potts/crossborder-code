@@ -3,29 +3,23 @@ html_title: 'About'
 html_theme.sidebar_secondary.remove: true
 ---
 
-### About
+#### About
 
 I research topics in global macroeconomics and finance, with data and code.
 
-<div>
+<div style="margin: 2em 0;">
 <img src="../_static/matthewpotts.jpeg" alt="Matthew Potts" style="width: 300px; height: auto;">
 </div>
 
+I am passionate how bringing data and technology to financial and economic research, and building technical systems that can be used to inform both analysis and decision-making. As a software engineer in trading technology, I develop data-intensive batch-processing systems that inform trading decisons at the UK's largest bank, developing across a stack including Python, C#, Microsoft Azure, and Google Cloud Platform.
 
-I am passionate how bringing data and technology to financial and economic research, and building technical systems that can be used to inform both analysis and decision-making. 
-
-I've recently researched  topics such as the carry trade during the Great Financial Crisis 2007-08 and the evolution of cross-border funding in the 21st century, I'm particularly motivated by 'bridging the gap' between the fields of data engineering and investment research. To this end I always include samples of code that I've used to conduct my analysis.
-
-In my 'day job' as a software engineer in trading technology, I develop data-intensive batch-processing systems that inform balance-sheet optimisation at the UK's largest bank, developing across a stack including Python, C#, Microsoft Azure, and Google Cloud Platform.
-
-I'm interested in the role of AI and LLMs in research workflows, and I also enjoy integrating AI into my own development process.
-
-My interest in international finance and geoeconomics makes me particularly interested in China’s role in the global system. I lived in Beijing for a year in 2019 and am currently working towards the HSK 5 qualification in Mandarin.
-
-Please find below a copy of my CV.
+My research here covers both technical notes and applications. Recent areas include:
+-   Python code samples to [remove race-conditions in batch-processing workflows](../research/technical-notes/RaceConditions_LLM.md) that rely on message buses.
+-   Assessing the relationship between [LLM assessments of global macroeconomic news and the global financial cycle.](../research/LLMsAndGFCy/LLMsAndGFCy.md)
+-   Applying my open-source [*getBISy* Python SDK](https://test.pypi.org/project/getBISy/) to the [dynamics of cross-border flows during the Great Financial Crisis 2007-08.](../research/U.S.Assets.DuringGFC/U.S.Assets.During.Crisis.ipynb)
 
 <div class="pdf-embed">
-<iframe src="../_static/MatthewPotts.CV.pdf" width="100%" height="800" frameborder="0"><a href="./_static/MatthewPotts.CV.pdf">Download CV</a>.</iframe>
+<iframe src="../_static/Matthew.Potts.CV.pdf" width="100%" height="800" frameborder="0"><a href="./_static/MatthewPotts.CV.pdf">Download CV</a>.</iframe>
 </div>
 
 [Download](../_static/MatthewPotts.CV.pdf)

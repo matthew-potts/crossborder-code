@@ -126,6 +126,7 @@ Second, from a technical perspective, for convenience the OpenAI Batch SDK was u
 
 *Matthew Potts*
 
+crossbordercode.com
 
 [^1]: I don't believe that fully remote batch runs are currently possible, however, due to the Refinitiv APIs relying on which itself can only be run locally. This means that fully automated trading is more difficult, and is a limitation of the LSEG API compared with, for example, TWS, for which there is an open-source library facilitating [headless runs of the IB Web API Gateway](https://github.com/Voyz/ibeam?tab=readme-ov-file).
 

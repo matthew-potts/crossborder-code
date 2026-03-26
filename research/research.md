@@ -1,6 +1,9 @@
 ![Combined Figures 3 and 5](../_static/combined_figure_3_5.png)
 
 
+#### March 2026
+- [Breaking Down the Reversal of the Off-Balance Sheet Yen Carry Trade since 2022](../research/YenCarryTrade/YenCarryTrade.md)
+
 #### February 2026
 - [Technical Note: Race Conditions in Batch LLM Assessment and Messaging Workflows](technical-notes/RaceConditions_LLM.md)
 
